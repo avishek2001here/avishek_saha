@@ -78,6 +78,13 @@ h2{
 }
 
 #About{
+    img{
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: zoomIn;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+    }
     .container{
         margin-top: 10px;
     }
@@ -91,13 +98,30 @@ h2{
 }
 
 #Skills{
-
+    img{
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: zoomIn;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 6s;
+    }
     h2{
         margin-bottom:40px;
     }
 }
 
+#Experience{
+    img{
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: zoomIn;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 10s;
+    }
+}
+
 #Contact{
+
     label{
         color:rgb(169, 25, 157);
         font-family:Georgia, 'Times New Roman', Times, serif;
