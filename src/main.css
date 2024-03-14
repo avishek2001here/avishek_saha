@@ -12067,6 +12067,12 @@ h2, .h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
 }
+#Contact input {
+  border: 2px solid rgb(175, 173, 193);
+}
+#Contact textarea {
+  border: 2px solid rgb(175, 173, 193);
+}
 #Contact img {
   width: 50px;
 }
@@ -12078,4 +12084,5 @@ footer {
   margin-top: 20px;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(219, 239, 222);
 }/*# sourceMappingURL=main.css.map */
